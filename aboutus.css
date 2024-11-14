@@ -25,25 +25,24 @@ body{
     text-decoration: none;
     font-size: large;
     margin-top: 25px;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 55px;
   }
   
 .image{
-    width: 150px;
-    height: 100px;
+    width: 175px;
+    height: 80px;
     left: auto;
     right: auto;
 }
   
   /* Links on mouse-over */
-  .sidebar a:hover {
+  .sidebar .a:hover {
     border-right: #a135ff 5px solid;
-    color: #a135ff;
+    color: #9632fe;
   }
   
  .orgc{
-  padding-left: 55px;
   padding-top: 15px;
   background:none;
   border: none;
