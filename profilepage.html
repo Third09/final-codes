@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="profilepage.css">
+</head>
+
+<div class="sidebar">
+    <a href="mainpage.html"><button class="orgc" > <img class="image" src="longlogo.png"></button></a>
+    <a class="a" href="aboutus.html">About Us</a>
+    <a class="a" href="officers.html">Officers</a>
+    <a class="a" href="committee.html">Comittee</a>
+    <a class="a" href="handledevents.html">Handled Events</a>
+    <a class="a" href="announcements.html">Announcements</a>
+  </div>
+
+  <div class="navbar">
+    <div class="search-container">
+        <input type="text" placeholder="Search">
+        <i class="fas fa-search"></i>
+    </div>
+    <div class="icon-container">
+        <div class="icon"><i class="fas fa-home"></i></div>
+        <div class="icon"><i class="fas fa-user"></i></div>
+        <div class="icon"><i class="fas fa-heart"></i></div>
+        <div class="icon"><i class="fas fa-bell"></i></div>
+        <div class="toggle">
+            <i class="fas fa-globe"></i>
+        </div>
+    </div>
+</div>
+
+
+<body>
+    <div class="comtext">
+        <h1>USER PROFILE</h1>
+    </div>
+
+    <div class="container">
+
+    <div class="form-container">
+        <form class="account-form">
+            <h2>Edit Account Details</h2>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="">
+            </div>
+            <div class="form-groupid">
+                <label for="studentId">Student ID</label>
+                <input type="text" id="studentId" placeholder="">
+            </div>
+            <div class="form-groupgend">
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="female" selected>Female</option>
+                    <option value="male">Male</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <div class="dob-container">
+                    <select id="dobMonth">
+
+                        <option value="january" selected>January</option>
+                        <option value="february" selected>February</option>
+                        <option value="march" selected>March</option>
+                        <option value="april" selected>April</option>
+                        <option value="may" selected>May</option>
+                        <option value="june" selected>June</option>
+                        <option value="july" selected>July</option>
+                        <option value="august" selected>August</option>
+                        <option value="september" selected>September</option>
+                        <option value="october" selected>October</option>
+                        <option value="november" selected>November</option>
+                        <option value="december" selected>December</option>
+                    </select>
+                    <select id="dobDay">
+                        <option value="1" selected>1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3" selected>3</option>
+                        <option value="4" selected>4</option>
+                        <option value="5" selected>5</option>
+                        <option value="6" selected>6</option>
+                        <option value="7" selected>7</option>
+                        <option value="8" selected>8</option>
+                        <option value="9" selected>9</option>
+                        <option value="10" selected>10</option>
+                        <option value="11" selected>11</option>
+                        <option value="12" selected>12</option>
+                        <option value="13" selected>13</option>
+                        <option value="14" selected>14</option>
+                        <option value="15" selected>15</option>
+                        <option value="16" selected>16</option>
+                        <option value="17" selected>17</option>
+                        <option value="18" selected>18</option>
+                        <option value="19" selected>19</option>
+                        <option value="20" selected>20</option>
+                        <option value="21" selected>21</option>
+                        <option value="22" selected>22</option>
+                        <option value="23" selected>23</option>
+                        <option value="24" selected>24</option>
+                        <option value="25" selected>25</option>
+                        <option value="26" selected>26</option>
+                        <option value="27" selected>27</option>
+                        <option value="28" selected>28</option>
+                        <option value="29" selected>29</option>
+                        <option value="30" selected>30</option>
+                        <option value="31" selected>31</option>
+                    </select>
+                    <select id="yearSelect">
+                    </select>
+                    <script>
+                        const select = document.getElementById('yearSelect');
+                        const currentYear = new Date().getFullYear();
+                    
+                        for (let year = 1970; year <= currentYear; year++) {
+                            const option = document.createElement('option');
+                            option.value = year;
+                            option.textContent = year;
+                            select.appendChild(option);
+                        }
+                    </script>
+                </div>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
+
+
+<div class="profile-card">
+    <div class="card">
+        <img src="bggg.png" alt="Background Image">
+        <div class="logo-container">
+          <img src="orgs.png" alt="Placeholder Logo">
+        </div>
+
+    <div class="profile-info">
+        <h2 class="name">MIKHAELA DELA CRUZ</h2>
+        <p class="id">23-2000</p>
+        <p class="email">Del**********@gmail.com</p>
+        <p class="dob">05 - 21 - 2003</p>
+        <p class="gender">Female</p>
+    </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
