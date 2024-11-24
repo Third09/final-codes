@@ -20,7 +20,7 @@ body{
   
 
   .sidebar a {
-    display: blocka;
+    display: block;
     color: black;
     text-decoration: none;
     font-size: large;
