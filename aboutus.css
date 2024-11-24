@@ -142,6 +142,7 @@ body{
     width: 75%;
     height: 700px;
     border-radius: 50px;
+    filter: drop-shadow(0px 17px 6px #ddb5f2);
   }
 
 
@@ -203,6 +204,7 @@ body{
 .header {
   position: absolute;
   top: -150px;
+  left: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,17 +256,19 @@ margin-bottom:75px ;
 .buttons{
   position: absolute;
   display: flex;
-  left: 250px;
+  left: 300px;
   gap: 20px;
 }
 .button {
   margin-top: 20px;
   background: transparent;
   border: 2px solid #8c4cfb;
-  color: #8c4cfb;
-  padding: 10px 20px;
-  font-size: 1rem;
-  border-radius: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px;
+  font-size: .8rem;
+  border-radius: 50px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
