@@ -225,3 +225,7 @@ body{
     text-align: center;
     text-transform: uppercase;
 }
+
+.out{
+  text-decoration: none;
+}
