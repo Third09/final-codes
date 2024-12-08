@@ -95,6 +95,8 @@ body{
     color: #ffffff;
   }
 
+/*copy for body*/
+
 .flex-container{
   display: flex;
   flex-direction: row;
